@@ -1,0 +1,7 @@
+E:\Assignment-LinkedListAndList\LinkedListAndList\bin\Debug\LinkedListAndList.exe.config
+E:\Assignment-LinkedListAndList\LinkedListAndList\bin\Debug\LinkedListAndList.exe
+E:\Assignment-LinkedListAndList\LinkedListAndList\bin\Debug\LinkedListAndList.pdb
+E:\Assignment-LinkedListAndList\LinkedListAndList\obj\Debug\LinkedListAndList.csprojAssemblyReference.cache
+E:\Assignment-LinkedListAndList\LinkedListAndList\obj\Debug\LinkedListAndList.csproj.CoreCompileInputs.cache
+E:\Assignment-LinkedListAndList\LinkedListAndList\obj\Debug\LinkedListAndList.exe
+E:\Assignment-LinkedListAndList\LinkedListAndList\obj\Debug\LinkedListAndList.pdb

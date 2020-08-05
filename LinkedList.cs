@@ -6,29 +6,39 @@ using System.Threading.Tasks;
 
 namespace LinkedListAndList
 {
-    class Program
+    class LinkedList
     {
         static void Main(string[] args)
         {
             LinkedList<string> lList = new LinkedList<string>(new string[] {"quick","fox","the","lazy"});
-            //a.AddFirst()
-            //b.AddLast()
-            //c.AddAfter()
-            //d.AddBefore()
-            //e.Find()
-            //f.FindLast()
-        
+          
+            Console.WriteLine("After Add First method");
 
-            
             lList.AddFirst("the");
+
+            Console.WriteLine("After Find and AddAfter method");
+
             LinkedListNode<String> temp = lList.Find("quick");
+
             lList.AddAfter(temp,"brown");
+
+            Console.WriteLine("After Find and AddBefore method");
+
             LinkedListNode<String> temp1 = lList.FindLast("the");
+
             lList.AddBefore(temp1, "over");
+
+            Console.WriteLine("After Find and AddBefore method");
+
             LinkedListNode<String> temp2 = lList.FindLast("over");
-            lList.AddBefore(temp2, "jumps");
-            lList.AddLast("fox");
             
+            lList.AddBefore(temp2, "jumps");
+
+            Console.WriteLine("AfterLast method");
+
+            lList.AddLast("fox");
+
+            Console.WriteLine("The final output :");
          
             foreach (var i in lList)
             {
